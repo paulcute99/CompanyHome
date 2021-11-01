@@ -1,0 +1,132 @@
+html, body{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #f7f7f7;
+}
+
+.header{
+    display: inline-block;
+    position: fixed;
+    background-color: #F7F7F7;
+    width: 100%;
+    height: 90px;
+    top: 0;
+    z-index: 9999;
+}
+.header img{
+    width: 120px;
+    float: left;
+    margin-top: -10px;
+}
+
+.headerlist{
+    float: right;
+     margin: 20px 60px;
+}
+.headerlist h4{
+    list-style: none;
+    float: right;
+    margin: 20px 60px;
+    transition: all 150ms ease-in;
+}
+
+.headerlist h4 a{
+    text-decoration: none;
+    color: black;
+}
+
+.headerlist h4 a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+main{
+    position:relative;
+    width: 100%;
+    height: 925px;
+    background-image: url("../img/pc.jpg");
+    top: 50px;
+    background-size: cover;
+}
+
+.intro{
+    position: relative;
+    text-align: center;
+    top: 350px;
+    color: #CCCCCC;
+
+}
+
+.intro h1{
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+
+.intro h2{
+    font-size: 1rem;
+    margin-top: 0;
+}
+.intro h3{
+    margin-bottom: 0;
+}
+
+.intro h3 a{
+    color: #CCCCCC;
+    font-weight: bold;
+    line-height: 3;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 200ms ease-in;
+}
+
+.intro h3 a:hover{
+    border: 1px solid orange;
+    background-color: orange;
+    padding: 5px 15px;
+    border-radius: 30px;
+    color: #703B0C;
+}
+
+footer .desktop{
+    position: relative;
+    top: 50px;
+    padding: 50px auto;
+}
+footer .desktop .company{
+    float: left;
+    font-weight: bold;
+}
+
+footer .desktop .social-media{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-top: 8px;
+    justify-content: space-between;
+}
+
+footer .desktop .social-media i{
+    margin: 10px 20px;
+}
+footer .desktop .social-media .facebook{
+    width: 25px;
+    height: 25px;
+    background-image: url("../img/social-media/facebok.jpg");
+    background-size: 25px;
+}
+
+footer .desktop .social-media .twitter{
+    width: 25px;
+    height: 25px;
+    background-image: url("../img/social-media/twitter.jpg");
+    background-size: 25px;
+}
+
+footer .desktop .social-media .instagram{
+    width: 25px;
+    height: 25px;
+    background-image: url("../img/social-media/instagram.jpg");
+    background-size: 25px;
+}

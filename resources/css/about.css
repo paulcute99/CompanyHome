@@ -1,0 +1,130 @@
+html, body{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #f7f7f7;
+}
+
+.header{
+    display: inline-block;
+    position: fixed;
+    background-color: #F7F7F7;
+    width: 100%;
+    height: 90px;
+    top: 0;
+    z-index: 9999;
+}
+.header img{
+    width: 120px;
+    float: left;
+    margin-top: -10px;
+}
+
+.headerlist{
+    float: right;
+     margin: 20px 60px;
+}
+.headerlist h4{
+    list-style: none;
+    float: right;
+    margin: 20px 60px;
+    transition: all 150ms ease-in;
+}
+
+.headerlist h4 a{
+    text-decoration: none;
+    color: black;
+}
+
+.headerlist h4 a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+main{
+    position:relative;
+    width: 100%;
+    height: 550px;
+    background-image: url("../img/pc2.jpg");
+    top: 70px;
+    background-size: cover;
+    background-position: center;
+}
+.bio{
+    float: right;
+    width: 50%;
+    height: 500px;
+    position: relative;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 50px;
+    background-color: #A0A0B0;
+}
+.bio h2{
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+}
+.description{
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
+.products{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.products a{
+    text-decoration: none;
+    color: black;
+    transition: all 200ms ease-in;
+}
+.products a:hover{
+    border: #515163 solid 1px;
+    background-color: #515163;
+    padding: 5px 10px;
+    border-radius: 30px;
+    color: white;
+}
+
+footer .desktop{
+    position: relative;
+    top: 70px;
+    padding: 50px auto;
+}
+footer .desktop .company{
+    float: left;
+    font-weight: bold;
+}
+
+footer .desktop .social-media{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-top: 8px;
+    justify-content: space-between;
+}
+
+footer .desktop .social-media i{
+    margin: 10px 20px;
+}
+footer .desktop .social-media .facebook{
+    width: 25px;
+    height: 25px;
+    background-image: url("../img/social-media/facebok.jpg");
+    background-size: 25px;
+}
+
+footer .desktop .social-media .twitter{
+    width: 25px;
+    height: 25px;
+    background-image: url("../img/social-media/twitter.jpg");
+    background-size: 25px;
+}
+
+footer .desktop .social-media .instagram{
+    width: 25px;
+    height: 25px;
+    background-image: url("../img/social-media/instagram.jpg");
+    background-size: 25px;
+}
